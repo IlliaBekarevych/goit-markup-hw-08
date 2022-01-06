@@ -2,9 +2,13 @@
   display: none;
   padding-top: 94px;
   padding-bottom: 94px;
+  @media screen and (min-width:1200px){
+    display: block;
+  }
 }
 .work__list {
   display: flex;
+  justify-content: center;
 }
 
 .work-title {
@@ -20,7 +24,7 @@
   position: absolute;
   width: 370px;
   height: 70px;
-  top: 1435px;
+  top: 1295px;
   background: rgba(47, 48, 58, 0.8);
 }
 .work__list-title {

@@ -3,14 +3,30 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-// .footer-container {
-//   display: flex;
-// }
+.footer-container {
+  @media screen and (min-width:1200px){
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  }
+}
+.tab-footer-container{
+  @media screen and (min-width:768px){
+  display: flex;
+  margin-left: 76px;
+  }
+  @media screen and (min-width:1200px){
+    margin-left: auto;
+  }
+}
 .main-footer-container {
   display: flex;
-  align-items: baseline;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  @media screen and (min-width:1200px){
+    align-items: baseline;
+  }
 }
 
 .footer-logo {
@@ -24,14 +40,18 @@
   display: block;
   width: 154px;
 }
-.footer-address{
-  margin-bottom: 60px;
-}
+
 .footer-address__list {
   width: 232px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 60px;
+  @media screen and (min-width:1200px){
+    align-items: baseline;
+    margin-bottom: 0;
+    margin-right: 70px;
+  }
 }
 .footer-address__item:not(:last-child) {
   margin-bottom: 9px;
@@ -104,10 +124,16 @@
 display: flex;
 flex-direction: column;
 align-items: center;
+@media screen and (min-width:768px){
+  width: 450px;
+  }
+  @media screen and (min-width:1200px){
+    width: 570px;
+    align-items: baseline;
+    margin-right: auto;
+  }
 }
-// .input-container {
-//   display: flex;
-// }
+
 .footer-input-title {
   font-weight: 700;
   font-size: 14px;
@@ -122,6 +148,10 @@ align-items: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media screen and (min-width:1200px){
+    flex-direction: row;
+    align-items: center;
+  }
 }
 .footer-input {
   width: 100%;
@@ -139,6 +169,10 @@ align-items: center;
   color: rgba(255, 255, 255, 0.6);
   outline: none;
   margin-bottom: 20px;
+  @media screen and (min-width:1200px){
+    margin-bottom: 0;
+    width: 358px;
+  }
 }
 
 .footer-input-btn {
@@ -155,6 +189,9 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (min-width:1200px){
+    margin-left: 12px;
+  }
 }
 .footer-input-icon {
   margin-left: 10px;

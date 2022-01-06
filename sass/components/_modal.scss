@@ -26,6 +26,9 @@
   transform: scale(1);
   transform: translate(-50%, -50%);
   transition: transform 500ms;
+  @media screen and (min-width:480px){
+    min-width: 450px;
+  }
 }
 
 .modal-close {
@@ -130,7 +133,7 @@
 
 .modal-checkbox__text {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;

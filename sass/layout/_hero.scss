@@ -3,6 +3,14 @@
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../img/hero-mobail-x1-min.jpg);
   background-repeat: no-repeat;
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    & {
+      background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+      url(../img/hero-mobail-x2-min.jpg);
+    }
+  }
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -11,6 +19,26 @@
   @media screen and (min-width:768px) {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../img/hero-tab-x1-min.jpg);
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        & {
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+        url(../img/hero-tab-x2-min.jpg);
+        }
+      } 
+  }
+  @media screen and (min-width:1200px) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../img/background-img.jpg);
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        & {
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+        url(../img/hero-x2-min.jpg);
+        }
+      } 
   }
 }
 .hero__title {
@@ -24,6 +52,14 @@
   margin-right: auto;
   margin-left: auto;
   display: block;
+  @media screen and (min-width:480px){
+    width: 360px;
+  }
+  @media screen and (min-width:1200px){
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 .hero__btn {
   font-family: inherit;
