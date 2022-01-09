@@ -2,13 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 40px;
+  margin-left: -8px;
+  margin-top: -15px;
   @media screen and (min-width:768px){
     justify-content: center;
   }
 }
-.btn__item:not(:last-child) {
-  margin-right: 8px;
-  margin-bottom: 15px;
+.btn__item {
+  margin-left: 8px;
+  margin-top: 15px;
 }
 .btn__section {
   font-family: inherit;
