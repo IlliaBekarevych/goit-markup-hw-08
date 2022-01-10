@@ -16,10 +16,11 @@
   display: flex;
   align-items: baseline;
   justify-content: space-around;
-  margin-bottom: 0px;
+  margin-bottom: 60px;
   }
   @media screen and (min-width:1200px){
-    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
   }
 }
 .main-footer-container {
@@ -28,9 +29,23 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 60px;
+  @media screen and (min-width:768px){
+    margin-bottom: 0;
+    }
   @media screen and (min-width:1200px){
     align-items: baseline;
     margin-right: 70px;
+    margin-bottom: 0;
+  }
+}
+
+.main-footer-social-container{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media screen and (min-width:1200px){
+    align-items: baseline;
   }
 }
 
