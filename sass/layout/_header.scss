@@ -200,11 +200,13 @@
 }
 .header__mob-social-list{
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-top: 64px;
   margin-bottom: 48px;
-  
+  margin-left: 10px;
+  @media screen and (min-width:480px){
+    margin-left: 40px;
+  }
 }
 .header__mob-social-link{
   font-weight: 500;

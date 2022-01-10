@@ -27,8 +27,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 60px;
   @media screen and (min-width:1200px){
     align-items: baseline;
+    margin-right: 70px;
   }
 }
 
@@ -49,11 +51,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 60px;
   @media screen and (min-width:1200px){
     align-items: baseline;
     margin-bottom: 0;
-    margin-right: 70px;
   }
 }
 .footer-address__item:not(:last-child) {
@@ -128,11 +128,12 @@ flex-direction: column;
 align-items: center;
 @media screen and (min-width:768px){
   width: 450px;
+  margin: 0 auto;
   }
   @media screen and (min-width:1200px){
     width: 570px;
     align-items: baseline;
-    margin-right: auto;
+    margin-left: auto;
   }
 }
 
